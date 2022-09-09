@@ -1,0 +1,341 @@
+
+!1::
+SendMessage, 0x50,, 0x4090409,, A
+Sleep 250 ;
+Send, {t}
+Sleep 250 ; 
+SendInput, Доброго дня, Рядовий НПУ м.Дніпра Юрій Петечел.
+Sleep 250 ; 
+Send, {enter}
+Sleep 250 ; 
+Send, {t} 
+Sleep 250 ; 
+SendInput, /do Юрій вдягений в чорний бронік "НПУ", на якому вісить АК-74. 
+Sleep 550 ; 
+Send, {enter}
+Sleep 250 ; 
+Send, {t} 
+Sleep 250 ; 
+SendInput, /me діставши посвідчення з броніку, показав його громадянинину.
+Sleep 250 ;
+Send, {enter} 
+Sleep 250 ;
+Send, {t} 
+Sleep 250 ; 
+SendInput, /do Инф-ція: НПУ Петечел Юрій. Посвідчення дійсне с 09.07.2022 до 08.07.2025
+Sleep 550 ;
+Send, {enter}
+Sleep 250 ; 
+Send, {t} 
+Sleep 250 ;   
+SendInput, /me закривши посвідчення, прибрав його назад в бронік.  
+Sleep 250 ; 
+Send, {enter}
+Sleep 250 ; 
+Return
+
+!0::
+SendMessage, 0x50,, 0x4090409,, A
+Sleep 250 ;
+Send, {t}
+Sleep 250 ; 
+SendInput, Доброго дня, Рядовий Петечел Юрій
+Send, {enter}
+Sleep 250 ; 
+Send, {t} 
+Sleep 250 ; 
+SendInput, /do Юрій вдягнений в бронік, з значком НПУ який веде відеозапис. 
+Sleep 250 ; 
+Send, {enter}
+Sleep 250 ; 
+Send, {t} 
+Sleep 250 ; 
+SendInput, Покажіть будь ласка ваші документи
+Sleep 250 ;
+Send, {enter}
+Return 
+
+!F1::
+SendMessage, 0x50,, 0x4090409,, A
+Sleep 250 ; 
+Send, {t} 
+Sleep 250 ; 
+SendInput, /me взяв мегафон в руку та зажав кнопку гучного зв'язку
+Sleep 550 ; 
+Send, {enter}
+Sleep 250 ; 
+Send, {t} 
+Sleep 250 ; 
+SendInput, [НПУ] Зупиняємось притискаємося до узбіччя НПУ України!
+Sleep 250 ;
+Send, {enter} 
+Sleep 250 ;
+Send, {t} 
+Sleep 250 ; 
+SendInput, /me поклав мегафон на панель
+Sleep 550 ;
+Send, {enter}
+Return
+
+^1::
+SendMessage, 0x50,, 0x4190419,, A 
+SendInput, {е}
+Sleep 250 ; 
+SendInput, /me взяв документи з рук власника, та швидко ознайомився з ними.
+Sleep 250 ; 
+SendInput, {ENTER} 
+Return
+
+!F6::
+SendMessage, 0x50,, 0x4190419,, A 
+SendInput, {е} 
+Sleep 250 ;
+SendInput, /me дісташи КПК з броніку, подав підозрюваного у розшук.
+Sleep 250 ; 
+SendInput, {ENTER} 
+Return
+
+!F11::
+SendMessage, 0x50,, 0x4090409,, A
+Sleep 250 ;
+Send, {t}
+Sleep 250 ; 
+SendInput, /do Замок автомобіля закритий, вікна зачинені.
+Sleep 250 ; 
+Send, {enter}
+Sleep 250 ; 
+Send, {t} 
+Sleep 250 ; 
+SendInput, /me прикладом тайзера вибив скло авто і відчинив двері.
+Sleep 250 ; 
+Send, {enter}
+Sleep 250 ; 
+Send, {t} 
+Sleep 250 ; 
+SendInput, /me відстебнув ремінь безпеки водія та викинув його з автомобіля.
+Sleep 250 ;
+Send, {enter}
+Sleep 250 ; 
+Return
+
+!5::
+SendMessage, 0x50,, 0x4090409,, A
+Sleep 250 ;
+Send, {t}
+Sleep 250 ; 
+SendInput, /me зняв кайдани з тактичного пояса, та заламав людину навпроти, після вдяг на неї кайдани.
+Sleep 250 ; 
+Send, {enter}
+Sleep 250 ; 
+Send, {t} 
+Sleep 250 ; 
+SendInput, /me взявшись за руку порушника, повів його за собою.
+Sleep 250 ; 
+Send, {enter}
+Return
+
+!F5::
+SendMessage, 0x50,, 0x4190419,, A
+Sleep 250 ;
+Send, {t}
+Sleep 250 ; 
+Sendinput, /me зняв кайдани з людини, та повісив їх назад на пояс. 
+Sleep 250 ; 
+SendInput, {ENTER} 
+Return
+
+!F4::
+SendMessage, 0x50,, 0x4190419,, A 
+SendInput, {е} 
+Sleep 250 ; 
+SendInput,/me відчинивши двері авто, закинув порушника в салон та зафіксував кайдани до дверної ручки.
+Sleep 250 ; 
+SendInput,{ENTER}
+Return
+
+!4::
+SendMessage, 0x50,, 0x4190419,, A 
+SendInput, {е} 
+Sleep 250 ;
+SendInput,/me відчинивши двері авто, зняв кайдани з дверної ручки, витягнув порушника ...
+Sleep 250 ; 
+SendInput,{ENTER}
+Sleep 250 ; 
+SendInput, {е} 
+Sleep 250 ;
+SendInput,/me ... з авто, та повів його заломавши руку.
+Sleep 250 ; 
+SendInput,{ENTER}
+Return
+
+!F7::
+SendMessage, 0x50,, 0x4090409,, A
+Sleep 250 ;
+Send, {t}
+Sleep 250 ; 
+SendInput, /me дістав ключи від камери з поясу, зняв кайдани з порушника і заштовхнув його в камеру.
+Sleep 250 ; 
+Send, {enter}
+Return
+
+!F10::
+SendMessage, 0x50,, 0x4090409,, A
+Sleep 250 ;
+Send, {t}
+Sleep 250 ; 
+SendInput, /me дістав рукавички з кишені, вдягнув їх та почав обшук громадянина.
+Sleep 250 ; 
+Send, {enter}
+Sleep 250 ; 
+Send, {t} 
+Sleep 250 ; 
+SendInput, /me поверхностно обшукує людину з верху до низу.
+Sleep 550 ; 
+Send, {enter}
+Sleep 250 ; 
+Return
+
+!8:: 
+SendMessage, 0x50,, 0x4190419,, A 
+SendInput, {е} 
+Sleep 250 ; 
+SendInput,/me діставши КПК з броніку, пробив людину по базі данних.
+Sleep 250 ; 
+SendInput, {ENTER} 
+Sleep 250 ; 
+Return
+
+!6::
+SendMessage, 0x50,, 0x4090409,, A
+Sleep 250 ;
+Send, {t}
+Sleep 250 ; 
+SendInput, /me дістав із кишені лист з орієнтуванням та показав його людині навпроти.
+Sleep 250 ; 
+Send, {enter}
+Sleep 250 ; 
+Return
+
+!F8:: 
+SendMessage, 0x50,, 0x4190419,, A
+Sleep, 250 ; 
+SendInput, {t}
+Sleep, 250 ; 
+SendInput, /do Камери виглядають мрачно, сірі стіни, маленьке пространство і іржа ...
+Sleep, 350 ; 
+SendInput, {enter}
+Sleep, 3250 ; 
+SendInput, {t}
+Sleep, 250 ; 
+SendInput, /do ... на решітках, всі стіни в подряпинах і коцках, на пілозі і досі ...
+Sleep, 350 ; 
+SendInput, {enter}
+Sleep, 3250 ; 
+SendInput, {t}
+Sleep, 250 ; 
+SendInput, /do ... є сліди засохшої крові, а зеки кричать та підзивають /Новенького/ ... 
+Sleep, 350 ; 
+SendInput, {enter}
+Sleep, 3250 ; 
+SendInput, {t}
+Sleep, 250 ; 
+SendInput, /do ... до себе в камери.
+Sleep, 350 ; 
+SendInput, {enter}
+Sleep, 3250 ; 
+SendInput, {t}
+Sleep, 250 ; 
+SendInput, /me схвативши підозрюваного за руку, зняв наручники та закинув його в камеру.
+Sleep, 350 ; 
+SendInput, {enter}
+Sleep, 250 ; 
+SendInput, {t}
+Sleep, 250 ; 
+SendInput, /do Через пару хвилин людина була в закритій камері, співробітник НПУ пішов.
+Sleep, 350 ; 
+SendInput, {enter}
+Sleep, 250 ; 
+Return
+
+!F9::
+SendMessage, 0x50,, 0x41250419,, A 
+SendInput, {е}
+Sleep 300 
+SendInput, /me дістав з наплечної кищені протокол з ручкою, виписав штраф і після передав його людині.{ENTER}  
+Sleep 300
+SendInput, {е} {ENTER} {е}
+Sleep 1300 
+SendInput, Найближчим часом сплатіть штраф.{ENTER}  
+Sleep 300 ; 
+SendInput, {ENTER}
+Return
+
+!7::
+SendMessage, 0x50,, 0x41250419,, A 
+SendInput, {е}
+Sleep 300 
+SendInput, /me дістав із задньої кишені рукавички для обшуку, одягнув їх та почав обшукувати затриманого.{ENTER} 
+Sleep 300
+SendInput, {е} {ENTER} {е}
+Sleep 1300 
+SendInput, Зараз дізнаємося який ти законослухнянний.{ENTER} 
+Sleep 300
+SendInput, {е} {ENTER} {е}
+Return
+
+!9::
+SendMessage, 0x50,, 0x41250419,, A 
+SendInput, {е}
+Sleep 300 
+SendInput, /me відкриши папку дістав із неї протокол кримінального правопорушення та ручку, та через ...{ENTER} 
+Sleep 300
+SendInput, {е} {ENTER} {е}
+Sleep 1300 
+SendInput, /me ... деякий час заповнив його і поклав назад в папку..{ENTER} 
+Sleep 300
+SendInput, {ENTER}
+return
+
+!3::
+SendMessage, 0x50,, 0x4190419,, A
+Sleep, 250 ; 
+SendInput, {t}
+Sleep, 250 ; 
+SendInput, /me дістав АК-74 з броніку спереду і зняв його з запобіжника.
+Sleep, 350 ; 
+SendInput, {enter}
+Sleep, 250 ; 
+Return
+
+!F3::
+SendMessage, 0x50,, 0x4190419,, A
+Sleep, 250 ; 
+SendInput, {t}
+Sleep, 250 ; 
+SendInput, /me поставив АК-74 на запобіжник і повісив його назад на бронік спереду. 
+Sleep, 350 ; 
+SendInput, {enter}
+Sleep, 250 ; 
+Return
+
+!2::
+SendMessage, 0x50,, 0x4190419,, A
+Sleep, 250 ; 
+SendInput, {t}
+Sleep, 250 ; 
+SendInput, /me дістав тазер з кобури та зняв його з запобіжника. 
+Sleep, 350 ; 
+SendInput, {enter}
+Sleep, 250 ; 
+Return
+
+!F2::
+SendMessage, 0x50,, 0x4190419,, A
+Sleep, 250 ; 
+SendInput, {t}
+Sleep, 250 ; 
+SendInput, /me поставив тазер на запобіжник та встунув назад в кобуру.
+Sleep, 350 ; 
+SendInput, {enter}
+Sleep, 250 ; 
+Return
